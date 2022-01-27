@@ -3,7 +3,7 @@ Ler um vetor de números inteiros e imprimir quantos são pares e quantos são �
 
 */ 
 
-const parImpar = (n = []) =>
+const parImpar = (n) =>
 {   let totalPar = 0
     let totalImpar = 0
     for(i = 0; i < n.length; i++)
